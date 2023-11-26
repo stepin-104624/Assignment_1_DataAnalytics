@@ -89,4 +89,4 @@ select title,length from film where length between 50 and 100;
 select * from actor order by actor_id desc limit 50;
 
 -- 24 Get the distinct film ids from inventory table.
-select distinct film_id from film;
+select distinct film_id from inventory;
