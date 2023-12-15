@@ -65,7 +65,7 @@ select first_name from customer where first_name like 'a%';
 select first_name from customer where first_name like '%a';
 
 -- 16 Display the list of first 4 cities which start and end with ‘a’ .
-select city from city where city like 'a%a';
+select city from city where city like 'a%a' limit 4;
 
 -- 17 Find all customers whose first name have "NI" in any position.
 select first_name from customer where first_name like "%NI%";
